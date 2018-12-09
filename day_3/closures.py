@@ -1,3 +1,12 @@
+def func1():
+    var = 5
+    def func2():
+        print(var)
+    return func2
+
+tmp = func1()
+tmp()
+
 def iterator_func():
     values = []
     for x in range(0, 3):
