@@ -31,7 +31,7 @@ class Client(threading.Thread):
 # adding the lock
 threadLock = threading.Lock()
 
-wallet = Wallet(10000)
+wallet = Wallet(100)
 client1 = Client(wallet,'John')
 client2 = Client(wallet,'Alice')
 
